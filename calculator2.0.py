@@ -5,7 +5,7 @@ list_operators = ["+", "-", "*", "/", "**"]
 
 if operator not in list_operators:
     print("""You chose to sum many numbers. 
-    Once all are typed in, please press enter twice.""")
+    Once all are typed in, please type in END.""")
 
     number = input("Number: ")
 
